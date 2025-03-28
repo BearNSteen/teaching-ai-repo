@@ -1,4 +1,3 @@
-// transparent_tube.gdshader
 shader_type spatial;
 
 uniform vec4 albedo : source_color = vec4(1.0);

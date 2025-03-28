@@ -1,0 +1,55 @@
+SHADER RENAME SUMMARY
+
+Here's a summary of the renamed shader files based on their actual functionality:
+
+1. angel_shader.gdshader -> luminous_blue_marble_shader.gdshader
+   - Creates a marble material with blue glowing energy lines flowing through it
+
+2. bitcrush.gdshader -> simple_transparent_shader.gdshader
+   - Simple transparent shader with configurable transparency and roughness
+   - Original name was misleading as it performs no bit-crushing effects
+
+3. brimstone_shader.gdshader -> infernal_marble_shader.gdshader
+   - Creates dark marble with red/orange glowing energy lines resembling hellfire
+   - Similar to the angel shader but with darker, hellish appearance
+
+4. gargoyle_shader.gdshader -> weathered_stone_shader.gdshader
+   - Creates highly detailed weathered stone effect with realistic surface variations
+   - Includes vertex displacement for surface roughness
+
+5. gargoyle_alive.gdshader -> awakening_stone_shader.gdshader
+   - Animates stone with glowing cracks, veins, and eyes using an intensity parameter
+   - Create animation effects for stone that's "coming alive"
+
+6. heaven_shader.gdshader -> ethereal_gold_marble_shader.gdshader
+   - Creates light-colored marble with golden energy flows and halo effects
+   - Part of the celestial/infernal trio with the blue and red marble shaders
+
+7. rippling_water.gdshader -> lava_flow_shader.gdshader
+   - Despite its name, this uses warm colors (red, orange, yellow)
+   - More suitable for lava/fire effects than water
+
+8. tube_transparent_shader.gdshader -> empty_shader_template.gdshader
+   - Contains only the empty shader template with no implementation
+   
+9. waterfall.gdshader -> raindrop_ripple_shader.gdshader
+   - Creates raindrops and expanding ripples on a surface
+   - More accurately described as rain impact effect than a waterfall
+
+10. gothic_stone.gdshader -> simple_stone_normal_shader.gdshader
+   - Basic stone shader that uses a normal map for surface detail
+   - Simple implementation compared to other stone shaders
+
+11. stone_shader.gdshader -> brick_stone_pattern_shader.gdshader
+   - Creates a detailed brick pattern with mortar and weathering effects
+   - More specifically a masonry pattern than generic stone
+
+12. WORLD_3D_STONE.gdshader -> unused_shader_template.gdshader
+   - Empty shader with no implementation
+   - All-caps name did not follow naming conventions
+
+13. grid_shader.gdshader -> transparent_grid_lines_shader.gdshader
+   - Creates a transparent grid pattern with configurable line width and color
+   - Being more specific about its transparency aspect
+
+These renames make the shader purposes clearer and more accurately reflect their content and visual effects. The three marble-based shaders (blue, gold, and infernal) now have names that better indicate their relationship as well.
